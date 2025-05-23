@@ -1,5 +1,11 @@
 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
     padding: 3px;
+    box-sizing: border-box;
 }
 
 .row-container {
@@ -40,6 +46,8 @@ input {
     text-align: center;
     border: 1px solid #555;
     padding: 5px;
+    width: 90%;
+    box-sizing: border-box;
 }
 
 .input::placeholder {
@@ -132,7 +140,7 @@ button {
     padding: 5px;
 }
 
-.pointsRow {
+.points-row {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -242,51 +250,18 @@ a {
         font-size: small;
     }
 
-    .row, .pointsRow {
+    .row {
         flex-wrap: wrap;
         justify-content: center;
-    }
-}
-
-@media (max-width: 480px) {
-    .card {
-        padding: 0.1rem;
-        font-size: small;
+        flex: 1 1 25%;
     }
 
-    .pts {
-        font-size: 2rem;
+    .column {
+        flex: 1 1 10%;
     }
 
-    .button {
-        min-width: 30px;
-        min-height: 30px;
-        padding: 6px 10px;
-        font-size: x-small;
-    }
-
-    .button.one,
-    .button.three,
-    .button.less {
-        padding: 6px;
-    }
-
-    .joker-display {
-        min-width: 45px;
-        max-width: 45px;
-        min-height: 80px;
-        max-height: 80px;
-        height: 80px;
-        font-size: 0.6rem;
-    }
-
-    .joker-input {
-        width: 50px;
-    }
-
-    .player {
-        width: 35px;
-        height: 35px;
-        font-size: x-small;
+    .points-row {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
