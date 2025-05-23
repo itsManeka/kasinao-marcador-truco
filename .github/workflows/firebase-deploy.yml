@@ -1,0 +1,27 @@
+name: Deploy to Firebase Hosting on main
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout o código
+        uses: actions/checkout@v4
+
+      - name: 📦 Instalar dependências
+        run: npm install
+
+      - name: 🛠️ Build do projeto
+        run: npm run build
+
+      - name: 🚀 Deploy para Firebase Hosting
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: "${{ secrets.GITHUB_TOKEN }}"
+          firebaseToken: "${{ secrets.FIREBASE_TOKEN }}"
+          channelId: live
