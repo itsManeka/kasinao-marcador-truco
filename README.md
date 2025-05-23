@@ -8,7 +8,9 @@
 
 # Kasinao Truco
 
-**Kasinao Truco** é o marcador de pontos digital oficial do Kasinao, feito com React + Vite + TypeScript. O app permite acompanhar a pontuação das duplas, gerenciar o coringa atual e anterior, e visualizar a ordem dos jogadores na mesa.
+**Kasinao Truco** é o marcador de pontos digital oficial do Kasinao, feito com React + Vite + TypeScript. O app permite acompanhar a pontuação das duplas, gerenciar o coringa atual e anterior, e visualizar a ordem dos jogadores na mesa. [Acesse aqui](https://kasinao-truco.web.app/).
+
+**Siga o Kasinao no instagram:**
 
 [![Instagram](https://img.shields.io/badge/@kasinao_truco-Follow-833AB4?logo=instagram&logoColor=white)](https://www.instagram.com/kasinao_truco/)
 
