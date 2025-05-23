@@ -1,4 +1,4 @@
-![Kasinao Truco](./public/assets/img/K.png)
+<img src="./public/assets/img/K.png" alt="Kasinao Truco" width="100" />
 
 [![React](https://img.shields.io/badge/React-19.1.0-61DAFB?logo=react&logoColor=white)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-6.3.5-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
