@@ -47,7 +47,7 @@ const TeamCard: React.FC<TeamCardProps> = ({ team, onTeamNameChange, onScoreChan
 
             <div className='card'>
                 <h1 className="pts">{team.score}</h1>
-                <div className="pointsRow">
+                <div className="points-row">
                     <PointButton label='+1' onClick={() => incrementScore(1)} className='button one' />
                     <PointButton label='+3' onClick={() => incrementScore(3)} className='button three' />
                     <PointButton label='-1' onClick={decrementScore} className='button less' />

@@ -3,16 +3,16 @@ body {
     flex-direction: column;
     align-items: center;
     align-content: center;
+    justify-content: center;
     font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     background-image: url('/assets/img/K.png');
     background-size: fit;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: #1c5c3d;
     color: #1b1b1b;
-    overflow-x: hidden;
-    box-sizing: border-box;
     margin: 0;
+    box-sizing: border-box;
 }
